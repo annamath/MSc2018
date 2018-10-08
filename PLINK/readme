@@ -1,0 +1,12 @@
+# <><><> PLINK runs <><><>
+plink --vcf <vcf-file> --r inter-chr --ld-snp-list
+plink --vcf <vcf-file> --r dprime inter-chr --ld-snp-list
+
+# <><><> Plotting <><><>
+using plink_plots_perchrom.R
+
+x axis: distance 
+y axis: LD
+for both r^2 and Dprime
+
+plot pairwise LD meassures, for variants only on the same chromosome, per chromosome

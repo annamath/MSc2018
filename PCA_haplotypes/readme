@@ -1,0 +1,3 @@
+> Run vcf2ms.pl to create ms fomat for each haplotype
+> Run giveHaploCode.pl in order to get information regarding variant position and which samples are positive
+> run ranged_PCA.R (1/3 of the variants contained in a 250k haplotype)

@@ -1,0 +1,6 @@
+1. run sweed_pipeline.sh # run sweed 
+2. random_chr_pos_for_sweed.sh # get random positions from chromosomes in order to create bull distribution
+3. get_SweeD_positive.R # get sweed positive variants
+4. plot_null_perchrom.R # plot the null distributions and the thresholds, per chromosome
+
+
