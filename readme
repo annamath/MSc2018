@@ -1,0 +1,7 @@
+# <><><> VCFtools <><><>
+vcftools --vcf <vcf-file> --weir-fst-pop <samples1.txt> --weir-fst-pop <samples2.txt>
+(run for each superpopulation)
+
+# <><><> Plot Fst <><><>
+First, run create_file_eachrs.py for all the population Fst calculations.
+This creates the Fst_plotting.R input file.
